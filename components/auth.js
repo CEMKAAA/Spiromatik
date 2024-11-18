@@ -56,9 +56,9 @@ export const Auth = () => {
         onChangeText={setPassword}
         value={password}
       />
-      <Button title="Sign in" onPress={signIn} />
-      <Button title="Sign In With Google" onPress={signInWithGoogle} />
-      <Button title="Logout" onPress={logout} />
+      <Button title="Giriş Yap" onPress={signIn} />
+      <Button title="Google ile giriş yap" onPress={signInWithGoogle} />
+      <Button title="Çıkış" onPress={logout} />
     </View>
   );
 };
